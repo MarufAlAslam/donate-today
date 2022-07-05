@@ -169,3 +169,41 @@ h3{
 .card3{
     background-color: #FFF4D6;
 }
+
+
+/* ------------------------------------------------------- */
+
+/* Get Update */
+
+
+.flex-form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+input.email {
+	background: #D9D9D9;
+	border: unset;
+	height: 55px;
+	border-radius: 10px 0 0 10px;
+    text-align: left;
+    padding: 10px;
+}
+.flex-form button {
+	height: 55px;
+	border: unset;
+	border-radius: 0 10px 10px 0;
+	font-size: 16px;
+}
+input.email::placeholder{
+    color: black;
+}
+.form-holder {
+	background: #FFF4D6;
+	padding: 60px 120px;
+	margin-top: 50px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
