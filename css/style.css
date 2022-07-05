@@ -1,0 +1,55 @@
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+
+
+
+/* hero */
+.hero{
+    padding: 150px 0;
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.7)), url("../img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    color: white;
+}
+h1{
+    font-size: 65px;
+    margin: 0;
+}
+.bold{
+    font-weight: bold;
+}
+.hero-content{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+.btn{
+    background-color: #FF5959;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
